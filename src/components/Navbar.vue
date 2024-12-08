@@ -9,7 +9,7 @@ const isActivePath = (routePath: string) => {
 </script>
 
 <template>
-  <div class="flex justify-between items-center py-2 bg-zinc-700 text-white px-2">
+  <div class="flex justify-between items-center py-4 bg-zinc-700 text-white px-2">
     <div>
       <RouterLink to="/">
         <h1 class="text-2xl font-bold">Vue Invoices</h1>
