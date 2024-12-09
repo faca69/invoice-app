@@ -1,31 +1,73 @@
 {
   "invoices": [
     {
-      "id": "288b",
+      "id": "a1b2",
       "newInvoice": {
-        "invoiceNumber": 72,
-        "client": "flara",
+        "invoiceNumber": 201,
+        "client": "GreenTech Solutions",
         "items": {
-          "itemName": "Laboris enim quam ne",
-          "quantity": 89,
-          "amount": 92
+          "itemName": "Solar Panel Installation",
+          "quantity": 10,
+          "amount": 1500
         },
-        "totalAmount": 8188,
-        "dueDate": "Autem aut error mole"
+        "totalAmount": 15000,
+        "dueDate": "2024-12-20"
       }
     },
     {
-      "id": "6fae",
+      "id": "c3d4",
       "newInvoice": {
-        "invoiceNumber": 98,
-        "client": "Totam est quaerat do",
+        "invoiceNumber": 202,
+        "client": "Future Dynamics",
         "items": {
-          "itemName": "Temporibus soluta fu",
-          "quantity": 82,
-          "amount": 25
+          "itemName": "AI Software License",
+          "quantity": 5,
+          "amount": 2500
         },
-        "totalAmount": 2050,
-        "dueDate": "Deserunt rerum unde "
+        "totalAmount": 12500,
+        "dueDate": "2024-12-25"
+      }
+    },
+    {
+      "id": "e5f6",
+      "newInvoice": {
+        "invoiceNumber": 203,
+        "client": "Oceanic Ventures",
+        "items": {
+          "itemName": "Marine Equipment Supply",
+          "quantity": 20,
+          "amount": 750
+        },
+        "totalAmount": 15000,
+        "dueDate": "2025-01-10"
+      }
+    },
+    {
+      "id": "g7h8",
+      "newInvoice": {
+        "invoiceNumber": 204,
+        "client": "Eco Build Co.",
+        "items": {
+          "itemName": "Sustainable Materials",
+          "quantity": 50,
+          "amount": 200
+        },
+        "totalAmount": 10000,
+        "dueDate": "2024-12-30"
+      }
+    },
+    {
+      "id": "i9j0",
+      "newInvoice": {
+        "invoiceNumber": 205,
+        "client": "CloudSync Inc.",
+        "items": {
+          "itemName": "Data Storage Plan",
+          "quantity": 30,
+          "amount": 100
+        },
+        "totalAmount": 3000,
+        "dueDate": "2025-01-05"
       }
     }
   ]
