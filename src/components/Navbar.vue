@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Button } from '@/components/ui/button'
 import { useRouter } from 'vue-router'
 
 const isActivePath = (routePath: string) => {
@@ -33,7 +32,15 @@ const isActivePath = (routePath: string) => {
         ]"
         >Invoices</RouterLink
       >
-      <RouterLink to="/add-invoice"> <Button>Add Invoice</Button></RouterLink>
+      <RouterLink
+        to="/add-invoice"
+        :class="[
+          isActivePath('/add-invoice')
+            ? 'bg-zinc-900 p-2 rounded-md'
+            : 'hover:bg-zinc-800 p-2 rounded-md',
+        ]"
+        >Add Invoice</RouterLink
+      >
     </div>
   </div>
 </template>
