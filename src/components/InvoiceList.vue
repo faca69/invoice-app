@@ -12,6 +12,15 @@ const state = reactive({
   isLoading: true,
 })
 
+const handleDelete = async (id: string) => {
+  try {
+    await axios.delete(`/api/invoices/${id}`)
+    state.invoices = state.invoices.filter((inv) => inv.id !== id)
+  } catch (error) {
+    console.error('Error Deleting Invoice', error)
+  }
+}
+
 onMounted(async () => {
   try {
     const response = await axios.get('/api/invoices')
@@ -41,17 +50,23 @@ onMounted(async () => {
       <TableCaption>A list of your recent invoices.</TableCaption>
       <TableHeader>
         <TableRow>
-          <TableHead class="w-[100px]"> Invoice Number</TableHead>
-          <TableHead>Client</TableHead>
-          <TableHead>Item Name</TableHead>
-          <TableHead class="text-right"> Quantity </TableHead>
-          <TableHead class="text-right"> Amount </TableHead>
-          <TableHead class="text-right"> Total Amount </TableHead>
-          <TableHead class="text-right"> Due Date </TableHead>
+          <TableHead class="text-left"> Invoice Number</TableHead>
+          <TableHead class="text-left">Client</TableHead>
+          <TableHead class="text-left">Item Name</TableHead>
+          <TableHead class="text-left">Quantity </TableHead>
+          <TableHead class="text-left">Amount </TableHead>
+          <TableHead class="text-left">Total Amount </TableHead>
+          <TableHead class="text-left">Due Date </TableHead>
+          <TableHead class="text-left">Delete </TableHead>
         </TableRow>
       </TableHeader>
 
-      <InvoiceTable v-for="invoice in state.invoices" :key="invoice.id" :invoice="invoice" />
+      <InvoiceTable
+        v-for="invoice in state.invoices"
+        :key="invoice.id"
+        :invoice="invoice"
+        @delete="handleDelete"
+      />
     </Table>
   </div>
 </template>

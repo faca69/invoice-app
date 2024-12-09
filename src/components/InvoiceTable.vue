@@ -2,19 +2,27 @@
 import type { Invoice } from '@/common/types/invoice.interface'
 import { TableCell, TableRow } from '@/components/ui/table'
 
-const { invoice } = defineProps<{
+const { invoice, onDelete } = defineProps<{
   invoice: Invoice
+  onDelete: (id: string) => void
 }>()
 </script>
 
 <template>
-  <TableRow>
-    <TableCell class="font-medium"> {{ invoice.invoiceNumber }} </TableCell>
-    <TableCell>{{ invoice.client }}</TableCell>
-    <TableCell>{{ invoice.items?.itemName }}</TableCell>
-    <TableCell class="text-right">{{ invoice.items?.quantity }} </TableCell>
-    <TableCell class="text-right">{{ invoice.items?.amount }} </TableCell>
-    <TableCell class="text-right">{{ invoice.totalAmount }} </TableCell>
-    <TableCell class="text-right">{{ invoice.dueDate }} </TableCell>
+  <TableRow class="dark">
+    <TableCell class="font-medium text-left"> {{ invoice.invoiceNumber }} </TableCell>
+    <TableCell class="text-left">{{ invoice.client }}</TableCell>
+    <TableCell class="text-left">{{ invoice.items?.itemName }}</TableCell>
+    <TableCell class="text-left">{{ invoice.items?.quantity }} </TableCell>
+    <TableCell class="text-left">{{ invoice.items?.amount }} </TableCell>
+    <TableCell class="text-left">{{ invoice.totalAmount }} </TableCell>
+    <TableCell class="text-left">{{ invoice.dueDate }} </TableCell>
+
+    <TableCell class="text-left"
+      ><button @click="onDelete(invoice.id)">
+        <i class="pi pi-trash text-red-300"></i></button
+    ></TableCell>
   </TableRow>
 </template>
+
+pi-pen-to-square
