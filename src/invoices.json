@@ -1,148 +1,115 @@
 {
   "invoices": [
     {
-      "id": "1",
-      "invoiceNumber": 1001,
-      "client": "John Doe",
-      "items": [
-        {
-          "itemName": "Widget A",
-          "quantity": 3,
+      "id": "d3e3",
+      "newInvoice": {
+        "invoiceNumber": 52,
+        "client": "Facere fugiat volupt",
+        "items": {
+          "itemName": "Sit error sint assu",
+          "quantity": 96,
+          "amount": 82
+        },
+        "totalAmount": 7872,
+        "dueDate": "Ea voluptates volupt"
+      }
+    },
+    {
+      "id": "b260",
+      "newInvoice": {
+        "invoiceNumber": 96,
+        "client": "Deleniti accusamus s",
+        "items": {
+          "itemName": "Sunt quod velit ve",
+          "quantity": 75,
+          "amount": 76
+        },
+        "totalAmount": 5700,
+        "dueDate": "Amet ex in est volu"
+      }
+    },
+    {
+      "id": "1a86",
+      "newInvoice": {
+        "invoiceNumber": 34,
+        "client": "Aute pariatur Nemo ",
+        "items": {
+          "itemName": "Velit dolorum qui be",
+          "quantity": 96,
+          "amount": 49
+        },
+        "totalAmount": 4704,
+        "dueDate": "Repellendus Qui et "
+      }
+    },
+    {
+      "id": "f2d4",
+      "newInvoice": {
+        "invoiceNumber": 14,
+        "client": "Ea sed est dolorum q",
+        "items": {
+          "itemName": "Ea aut nisi debitis ",
+          "quantity": 75,
+          "amount": 51
+        },
+        "totalAmount": 3825,
+        "dueDate": "Lorem quibusdam reru"
+      }
+    },
+    {
+      "id": "f933",
+      "newInvoice": {
+        "invoiceNumber": 29,
+        "client": "Vero quos duis vero ",
+        "items": {
+          "itemName": "Aliquid atque verita",
+          "quantity": 31,
+          "amount": 35
+        },
+        "totalAmount": 1085,
+        "dueDate": "Ut fugiat dolore rei"
+      }
+    },
+    {
+      "id": "722f",
+      "newInvoice": {
+        "invoiceNumber": 33,
+        "client": "L UR D A",
+        "items": {
+          "itemName": "Accusamus quaerat ni",
+          "quantity": 2,
+          "amount": 85
+        },
+        "totalAmount": 170,
+        "dueDate": "Sequi saepe aut ut o"
+      }
+    },
+    {
+      "id": "288b",
+      "newInvoice": {
+        "invoiceNumber": 72,
+        "client": "flara",
+        "items": {
+          "itemName": "Laboris enim quam ne",
+          "quantity": 89,
+          "amount": 92
+        },
+        "totalAmount": 8188,
+        "dueDate": "Autem aut error mole"
+      }
+    },
+    {
+      "id": "6fae",
+      "newInvoice": {
+        "invoiceNumber": 98,
+        "client": "Totam est quaerat do",
+        "items": {
+          "itemName": "Temporibus soluta fu",
+          "quantity": 82,
           "amount": 25
         },
-        {
-          "itemName": "Widget B",
-          "quantity": 2,
-          "amount": 40
-        }
-      ],
-      "totalAmount": 155,
-      "dueDate": "2024-12-15"
-    },
-    {
-      "id": "2",
-      "invoiceNumber": 1002,
-      "client": "Jane Smith",
-      "items": [
-        {
-          "itemName": "Gadget X",
-          "quantity": 1,
-          "amount": 100
-        }
-      ],
-      "totalAmount": 100,
-      "dueDate": "2024-12-18"
-    },
-    {
-      "id": "3",
-      "invoiceNumber": 1003,
-      "client": "Acme Corp",
-      "items": [
-        {
-          "itemName": "Part Z",
-          "quantity": 5,
-          "amount": 15
-        }
-      ],
-      "totalAmount": 75,
-      "dueDate": "2024-12-20"
-    },
-    {
-      "id": "afff",
-      "newInvoice": {
-        "invoiceNumber": 47,
-        "client": "Nam proident debiti",
-        "items": {
-          "itemName": "Quis sed voluptate d",
-          "quantity": 42,
-          "amount": 3
-        },
-        "totalAmount": 126,
-        "dueDate": "Incididunt assumenda"
-      }
-    },
-    {
-      "id": "82dd",
-      "newInvoice": {
-        "invoiceNumber": 43,
-        "client": "Nesciunt dolorem ip",
-        "items": {
-          "itemName": "Rerum sint ad deser",
-          "quantity": 44,
-          "amount": 68
-        },
-        "totalAmount": 2992,
-        "dueDate": "Consequuntur tempori"
-      }
-    },
-    {
-      "id": "b6b8",
-      "newInvoice": {
-        "invoiceNumber": 93,
-        "client": "Aute ducimus labori",
-        "items": {
-          "itemName": "Saepe aliquid volupt",
-          "quantity": 12,
-          "amount": 95
-        },
-        "totalAmount": 1140,
-        "dueDate": "Pariatur Voluptate "
-      }
-    },
-    {
-      "id": "8fbb",
-      "newInvoice": {
-        "invoiceNumber": 26,
-        "client": "Laboriosam in esse ",
-        "items": {
-          "itemName": "Ea consequuntur eos",
-          "quantity": 89,
-          "amount": 43
-        },
-        "totalAmount": 3827,
-        "dueDate": "Do corporis debitis "
-      }
-    },
-    {
-      "id": "d351",
-      "newInvoice": {
-        "invoiceNumber": 47,
-        "client": "Perferendis quibusda",
-        "items": {
-          "itemName": "Aut non laboris sit",
-          "quantity": 26,
-          "amount": 64
-        },
-        "totalAmount": 1664,
-        "dueDate": "Accusantium quisquam"
-      }
-    },
-    {
-      "id": "8570",
-      "newInvoice": {
-        "invoiceNumber": 0,
-        "client": "",
-        "items": {
-          "itemName": "",
-          "quantity": 0,
-          "amount": 0
-        },
-        "totalAmount": 0,
-        "dueDate": ""
-      }
-    },
-    {
-      "id": "3019",
-      "newInvoice": {
-        "invoiceNumber": 0,
-        "client": "",
-        "items": {
-          "itemName": "",
-          "quantity": 0,
-          "amount": 0
-        },
-        "totalAmount": 0,
-        "dueDate": ""
+        "totalAmount": 2050,
+        "dueDate": "Deserunt rerum unde "
       }
     }
   ]

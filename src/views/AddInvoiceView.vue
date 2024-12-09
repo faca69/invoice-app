@@ -33,7 +33,8 @@ const handleSubmit = async () => {
       class: 'dark',
       title: 'Invoice Created Successfully',
     })
-    router.push(`/invoices/${response.data.id}`)
+    // router.push(`/invoices/${response.data.id}`)
+    router.push('/invoices')
   } catch (error) {
     toast.toast({
       variant: 'destructive',
